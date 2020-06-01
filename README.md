@@ -9,8 +9,3 @@
   
     - Clone the repo and open it using Android Studio.
     - Make Project and Run. 
-
-
-Preview:
-
-<img src="image/preview.png" width=300>
