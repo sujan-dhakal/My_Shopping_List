@@ -1,11 +1,16 @@
 # My Shopping List
 
   - An android app to make a shopping list.
-  - Java (Andriod Studio)
+  - Java (Android Studio)
   - Developer: Sujan Dhakal
   
   
   How to run?
   
-    - Clone the repo and open it using Andriod Studio.
+    - Clone the repo and open it using Android Studio.
     - Make Project and Run. 
+
+
+Preview:
+
+<img src="images/preview.png>
