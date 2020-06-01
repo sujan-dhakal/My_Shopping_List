@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d9d9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2d545e"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="My Shopping List"
+        android:textColor="#beef00"
+        android:textFontWeight="20"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/date"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:padding="10dp"
+       android:text="Date"
+       android:textSize="18sp"
+       android:textColor="#2d545e"
+       android:textStyle="bold|italic"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/add_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:hint="Enter Your Item." />
+
+        <ImageView
+            android:id="@+id/add_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_twotone_add_24"/>
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/items_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:focusableInTouchMode="true"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:choiceMode="multipleChoice" />
+
+
+</LinearLayout>
